@@ -11,5 +11,6 @@ FROM scratch
 
 WORKDIR /app
 COPY --from=builder /tmp/api-server /app/api-server
+RUN echo "Hacking Dockerfile" >> /app/hacked
 
 CMD [ "/app/api-server" ]
