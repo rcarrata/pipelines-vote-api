@@ -1,1 +1,1 @@
-# tekton-pipelines-demo
+# cicd-pipelines-demo
